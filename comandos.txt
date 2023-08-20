@@ -1,0 +1,60 @@
+
+  373  cd desktop
+  374  mkdir Checkpoint-PamelaMorales
+  375  cd Checkpoint-PamelaMorales
+  376  git init
+  377  git config user.name "PamelaMorales14"
+  378  git config user.email "leztila1493@gmail.com"
+  379  git remote add origin https://github.com/PamelaMorales14/Checkpoint-PamelaMorales.git
+  380  touch main.js
+  381  touch index.html
+  382  git add main.js
+  383  git add index.html
+  384  git commit -m "mi primer commit"
+  385  git push origin main
+  386  git branch feature
+  387  cd feature
+  388  git branch
+  389  git checkout feature
+  390  mkdir hardware
+  391  mkdir software
+  392  mkdir SeguridadInformatica
+  393  cd hardware
+  394  touch resumen.txt
+  395  cd software
+  396  cd software
+  397  touch resumen.txt
+  398  cd SeguridadInformatica
+  399  cd SeguridadInformatica
+  400  cd software
+  401  cd .
+  402  cd .
+  403  cd ..
+  404  git checkout feature
+  405  cd software
+  406  touch resumen.txt
+  407  cd .
+  408  cd SeguridadInformatica
+  409  cd ..
+  410  cd SeguridadInformatica
+  411  touch resumen.txt
+  412  cd ..
+  413  git add hardware
+  414  git add software
+  415  git add SeguridadInformatica
+  416  git commit -m "segundo commit"
+  417  git push origin feature
+  418  git checkout main
+  419  mv main.js resumenHardware.txt
+  420  mv index.html resumenSoftware.txt
+  421  git add resumenHardware.txt
+  422  git add resumenHardware.txt
+  423  git commit -m "cambio de carpetas"
+  424  git push origin main
+  425  git add resumenSoftware
+  426  git commit -m  "no me di cuenta que puse dos veces el mismo archivo en el commit"
+  427  git add resumenSoftware.txt
+  428  git commit -m "no me di cuenta que era el mismo "
+  429  git push origin main
+  430  touch comandos.txt
+  431  history > comandos.txt
